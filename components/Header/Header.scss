@@ -1,0 +1,96 @@
+$white: #ffffff;
+$transparent: transparent;
+
+.Header {
+  &.-init {
+    background-color: $white;
+    height: 58px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+
+  &.-logoDesktop {
+    background-color: $transparent;
+    height: 18px;
+    left: 29px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 20px;
+    width: 91px;
+  }
+  &.-downloadCTASesktop {
+    background-color: $transparent;
+    height: 34px;
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    width: 211px;
+  }
+
+  &.-googlePlayIvonDestop {
+    background-color: $transparent;
+    bottom: -16px;
+    height: 58px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 92px;
+    width: 137px;
+  }
+
+  &.-app-storeDesktop {
+    background-color: $transparent;
+    bottom: -16px;
+    height: 58px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: -18px;
+    width: 137px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Header {
+    &.-logoDesktop {
+      background-color: $transparent;
+      height: 18px;
+      left: 19px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 20px;
+      width: 91px;
+    }
+
+    &.-downloadCTASesktop {
+      background-color: $transparent;
+      height: 34px;
+      position: absolute;
+      right: 20px;
+      top: 12px;
+      width: 211px;
+    }
+
+    &.-googlePlayIvonDestop {
+      background-color: $transparent;
+      bottom: -16px;
+      height: 58px;
+      mix-blend-mode: normal;
+      position: absolute;
+      right: 92px;
+      width: 137px;
+    }
+
+    &.-app-storeDesktop {
+      background-color: $transparent;
+      bottom: -16px;
+      height: 58px;
+      mix-blend-mode: normal;
+      position: absolute;
+      right: -18px;
+      width: 137px;
+    }
+  }
+}

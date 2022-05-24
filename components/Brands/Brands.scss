@@ -1,0 +1,102 @@
+$white: #ffffff;
+$transparent: transparent;
+$primary: #134e4a;
+$title-color: #2d2d2d;
+$font-size-xxxxl: 65px;
+$font-size-m: 14px;
+
+.Brands {
+  &.-init {
+    background-color: $white;
+    height: 100px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 461px;
+    width: 100%;
+  }
+
+  &.-divider-first {
+    background-color: $transparent;
+    height: 1px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: calc(100% - 140px);
+  }
+
+  &.-divider-last {
+    background-color: $transparent;
+    bottom: 0px;
+    height: 1px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    width: calc(100% - 140px);
+  }
+
+  &.-brands-image {
+    background-color: $transparent;
+    height: 30px;
+    left: calc(50% - 265px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 530px;
+  }
+  &.-brands-image-mobile{
+      display:none;
+  }
+}
+
+@media (max-width: 600px) {
+  .Brands {
+    &.-init {
+      background-color: $white;
+      height: 148px;
+      left: 0px;
+      mix-blend-mode: normal;
+      overflow: hidden;
+      position: absolute;
+      top: 815px;
+      width: 100%;
+    }
+
+    &.-brands-image{
+        display:none;
+    }
+
+    &.-divider-first {
+      background-color: $transparent;
+      height: 1px;
+      left: 30px;
+      object-fit: cover;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 60px);
+    }
+
+    &.-divider-last {
+      background-color: $transparent;
+      bottom: 0px;
+      height: 1px;
+      left: 30px;
+      object-fit: cover;
+      position: absolute;
+      width: calc(100% - 60px);
+    }
+
+    &.-brands-image-mobile {
+     display: block;
+      background-color: $transparent;
+      height: 78px;
+      left: calc(50% - 133px);
+      mix-blend-mode: normal;
+      position: absolute;
+      top: calc(50% - 39px);
+      width: 265px;
+    }
+  }
+}

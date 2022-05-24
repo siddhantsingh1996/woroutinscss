@@ -1,0 +1,654 @@
+$white: #ffffff;
+$transparent: transparent;
+$primary: #134e4a;
+$title-color: #2d2d2d;
+$font-size-xxxxl: 65px;
+$font-size-m: 14px;
+$font-size-xxl: 22px;
+$font-size-xxxl: 30px;
+$red: #ff6250;
+$biege: #fbf9f3;
+$light-gray: #f9fafb;
+$font-family-castoro: "Castoro", Helvetica;
+$font-family-lato:"Lato", Helvetica;
+
+.Footer {
+  &.-init {
+    background-color: $white;
+    bottom: 0px;
+    height: 182px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 2500px;
+  }
+
+  &.-divider-image {
+    background-color: $transparent;
+    height: 1px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: calc(100% - 140px);
+  }
+
+  &.-footer-content {
+    background-color: $transparent;
+    height: 122px;
+    left: calc(50% - 334px);
+    position: absolute;
+    top: calc(50% - 61px);
+    width: 668px;
+  }
+
+  &.-left-content {
+    background-color: $transparent;
+    height: 122px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 230px;
+  }
+
+  &.-logo-image {
+    background-color: $transparent;
+    height: 18px;
+    left: calc(50% - 116px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50% - 62px);
+    width: 91px;
+  }
+
+  &.-text-input {
+    background-color: $transparent;
+    height: 69px;
+    left: calc(50% - 115px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50% - 8px);
+    width: 230px;
+  }
+
+  &.-title-news-letter {
+    background-color: $transparent;
+    color: #a4a4a4;
+    font-style: normal;
+    font-weight: 400;
+    height: 34.78%;
+    left: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: 73.48%;
+  }
+
+  &.-body-text {
+    font-family: $font-family-lato;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+  }
+
+  &.-primary-cta {
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    height: 57.97%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 42.03%;
+    width: 100%;
+  }
+
+  &.-enter-your-emailid {
+    background-color: transparent;
+    border: 0;
+    color: $title-color;
+    font-style: normal;
+    font-weight: 400;
+    height: 24px;
+    left: 16px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 8px;
+    white-space: nowrap;
+    width: 151px;
+  }
+
+  &.-send-button {
+    background-color: $transparent;
+    color: $red;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 183px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 8px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  &.-right-content {
+    background-color: $transparent;
+    height: 122px;
+    left: 353px;
+    position: absolute;
+    top: 0px;
+    width: 315px;
+  }
+
+  &.-social-media {
+    background-color: $transparent;
+    height: 38px;
+    left: calc(50% - 76px);
+    position: absolute;
+    top: calc(50% - 61px);
+    width: 243px;
+  }
+
+  &.-social-media-image {
+    background-color: $transparent;
+    height: 36px;
+    left: calc(50% - 120px);
+    position: absolute;
+    top: calc(50% - 17px);
+    width: 232px;
+  }
+
+  &.-discord {
+    background-color: $transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50% - 122px);
+    letter-spacing: 0px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50% - 19px);
+    white-space: nowrap;
+    width: 36px;
+  }
+
+  &.-facebook {
+    background-color: $transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50% - 72px);
+    letter-spacing: 0px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50% - 18px);
+    white-space: nowrap;
+    width: 36px;
+  }
+
+  &.-dribble {
+    background-color: $transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50% - 24px);
+    letter-spacing: 0px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50% - 19px);
+    white-space: nowrap;
+    width: 36px;
+  }
+
+  &.-instagram {
+    background-color: $transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50% + 26px);
+    letter-spacing: 0px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50% - 19px);
+    white-space: nowrap;
+    width: 36px;
+  }
+
+  &.-behence {
+    background-color: $transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50% + 74px);
+    letter-spacing: 0px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50% - 19px);
+    white-space: nowrap;
+    width: 36px;
+  }
+
+  &.-title {
+    background-color: $transparent;
+    height: 24px;
+    left: 0px;
+    position: absolute;
+    top: 98px;
+    transform: rotate(-180deg);
+    width: 315px;
+  }
+
+  &.-policy {
+    background-color: $transparent;
+    height: 100%;
+    left: 72.7%;
+    letter-spacing: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    width: 27.3%;
+  }
+
+  &.-lato-semi-bold-heavy-metal-14px {
+    color: $title-color;
+    font-family: $font-family-lato;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  &.-mulish-bold-sunset-orange-30px {
+    font-family: $font-family-lato;
+    //font-family: var(--font-family-mulish);
+    font-size: $font-size-xxxl;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  &.-valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &.-groups {
+    background-color: $transparent;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transform: rotate(-180deg);
+    width: 32.38%;
+  }
+
+  &.-subtitle {
+    background-color: $transparent;
+    height: 100%;
+    left: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: 98.04%;
+  }
+
+  &.-cookies-policy {
+    background-color: $transparent;
+    height: 100%;
+    left: 37.94%;
+    letter-spacing: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    width: 28.57%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Footer {
+    &.-init {
+      display: block;
+      background-color: $white;
+      bottom: 0px;
+      height: 299px;
+      left: 0px;
+      mix-blend-mode: normal;
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+      top: 5050px;
+    }
+
+    &.-divider-image {
+      background-color: $transparent;
+      height: 1px;
+      left: 30px;
+      object-fit: cover;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 60px);
+    }
+
+    &.-footer-content{
+      background-color: $transparent;
+    height: 239px;
+    left: calc(50.00% - 158px);
+    position: absolute;
+    top: calc(50.00% - 120px);
+    width: 315px;
+    }
+
+    &.-left-content{
+      background-color: $transparent;
+      height: 117px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 315px;
+    }
+
+    &.-right-content{
+      background-color: $transparent;
+    height: 92px;
+    left: 0px;
+    position: absolute;
+    top: 147px;
+    width: 315px;
+    }
+
+    &.-logo-image{
+    background-color: $transparent;
+    height: 18px;
+    left: calc(50.00% - 158px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50.00% - 59px);
+    width: 91px;
+    }
+
+    &.-text-input{
+      background-color: $transparent;
+    height: 69px;
+    left: calc(50.00% - 158px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50.00% - 10px);
+    width: 230px;
+    }
+
+    &.-title-news-letter{
+      background-color: $transparent;
+    color: #a4a4a4;
+    font-style: normal;
+    font-weight: 400;
+    height: 34.78%;
+    left: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: 73.48%;
+    }
+
+    &.-primary-cta{
+      background-color: #f3f3f3;
+    border-radius: 12px;
+    height: 57.97%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 42.03%;
+    width: 100%;
+    }
+    
+    &.-enter-your-emailid{
+    background-color: $transparent;
+    border: 0;
+    color: $title-color;
+    font-style: normal;
+    font-weight: 400;
+    height: 24px;
+    left: 16px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 8px;
+    white-space: nowrap;
+    width: 151px;
+    }
+
+    &.-send-button{
+      background-color: $transparent;
+    color: $red;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 183px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 8px;
+    white-space: nowrap;
+    width: auto;
+    }
+
+    &.-social-media{
+    background-color: $transparent;
+    height: 38px;
+    left: calc(50.00% - 158px);
+    position: absolute;
+    top: calc(50.00% - 46px);
+    width: 243px;
+    }
+
+    &.-social-media-image{
+      background-color: $transparent;
+    height: 36px;
+    left: calc(50.00% - 120px);
+    position: absolute;
+    top: calc(50.00% - 17px);
+    width: 232px;
+    }
+
+    &.-discord{
+        background-color: $transparent;
+        cursor: pointer;
+        height: 36px;
+        left: calc(50.00% - 122px);
+        letter-spacing: 0.00px;
+        line-height: 42.7px;
+        mix-blend-mode: normal;
+        opacity: 0.0;
+        position: absolute;
+        text-align: center;
+        text-decoration: underline;
+        top: calc(50.00% - 19px);
+        white-space: nowrap;
+        width: 36px;
+    }
+ 
+    &.-facebook{
+      background-color: $transparent;
+      cursor: pointer;
+      height: 36px;
+      left: calc(50.00% - 72px);
+      letter-spacing: 0.00px;
+      line-height: 42.7px;
+      mix-blend-mode: normal;
+      opacity: 0.0;
+      position: absolute;
+      text-align: center;
+      text-decoration: underline;
+      top: calc(50.00% - 18px);
+      white-space: nowrap;
+      width: 36px;
+    }
+
+    &.-dribble{
+      background-color: $transparent;
+      cursor: pointer;
+      height: 36px;
+      left: calc(50.00% - 24px);
+      letter-spacing: 0.00px;
+      line-height: 42.7px;
+      mix-blend-mode: normal;
+      opacity: 0.0;
+      position: absolute;
+      text-align: center;
+      text-decoration: underline;
+      top: calc(50.00% - 19px);
+      white-space: nowrap;
+      width: 36px;
+    }
+
+    &.-instagram{
+      background-color: $transparent;
+      cursor: pointer;
+      height: 36px;
+      left: calc(50.00% + 26px);
+      letter-spacing: 0.00px;
+      line-height: 42.7px;
+      mix-blend-mode: normal;
+      opacity: 0.0;
+      position: absolute;
+      text-align: center;
+      text-decoration: underline;
+      top: calc(50.00% - 19px);
+      white-space: nowrap;
+      width: 36px;
+    }
+
+    &.-behence{
+      background-color: $transparent;
+      cursor: pointer;
+      height: 36px;
+      left: calc(50.00% + 74px);
+      letter-spacing: 0.00px;
+      line-height: 42.7px;
+      mix-blend-mode: normal;
+      opacity: 0.0;
+      position: absolute;
+      text-align: center;
+      text-decoration: underline;
+      top: calc(50.00% - 19px);
+      white-space: nowrap;
+      width: 36px;
+    }
+
+    &.-title{
+    background-color: $transparent;
+    height: 24px;
+    left: 0px;
+    position: absolute;
+    top: 68px;
+    transform: rotate(-180deg);
+    width: 315px;
+    }
+
+    &.-policy{
+    background-color: $transparent;
+    height: 100%;
+    left: 72.70%;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    width: 27.30%;
+    }
+
+
+    &.-groups{
+      background-color: $transparent;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transform: rotate(-180deg);
+    width: 32.38%;
+    }
+
+    &.-subtitle{
+      background-color: $transparent;
+    height: 100%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: 98.04%;
+    }
+
+    &.-cookies-policy{
+    background-color: $transparent;
+    height: 100%;
+    left: 37.94%;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    width: 28.57%;
+    }
+    
+
+
+
+
+  }
+}

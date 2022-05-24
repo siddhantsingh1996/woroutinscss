@@ -1,0 +1,313 @@
+$white: #ffffff;
+$transparent: transparent;
+$primary: #134e4a;
+$title-color: #2d2d2d;
+$font-size-xxxxl: 65px;
+$font-size-m: 14px;
+$font-size-xxl: 22px;
+$red: #ff6250;
+$biege: #fbf9f3;
+$light-gray: #f9fafb;
+$font-family-castoro: "Castoro", Helvetica;
+$font-family-lato:"Lato", Helvetica;
+
+
+.Classes {
+  &.-init {
+    background-color: $white;
+    height: 431px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 2062px;
+    width: 100%;
+  }
+
+  &.-wrapper {
+    background-color: $light-gray;
+    border-radius: 12px;
+    height: 351px;
+    left: calc(50% - 294px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50% - 176px);
+    width: 588px;
+  }
+
+  &.-content {
+    background-color: $transparent;
+    height: 283px;
+    left: calc(50% - 199px);
+    position: absolute;
+    top: calc(50% - 142px);
+    width: 399px;
+  }
+
+  &.-leftcontent {
+    background-color: $transparent;
+    height: 226px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 211px;
+  }
+
+  &.-titleContent {
+    background-color: $transparent;
+    height: 128px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 211px;
+  }
+
+  &.-title {
+    background-color: $transparent;
+    bottom: 92px;
+    color: $title-color;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 0px;
+    line-height: 36px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    white-space: nowrap;
+    width: 211px;
+  }
+
+  &.-heading-2 {
+    font-family:$font-family-castoro;
+    font-size: $font-size-xxl;
+    // font-style: normal;
+    // font-weight: 400;
+    letter-spacing: 0px;
+  }
+
+  &.-subtitle {
+    color: $title-color;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: calc(50% - 106px);
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: calc(50% - 8px);
+    width: 211px;
+  }
+
+  &.-body-text {
+    font-family: $font-family-lato;
+    font-size: $font-size-m;
+    //font-style: normal;
+    // font-weight: 400;
+    letter-spacing: 0px;
+  }
+
+  &.-buttonwrapper {
+    background-color: $transparent;
+    height: 68px;
+    left: 0px;
+    position: absolute;
+    top: 158px;
+    width: 211px;
+  }
+
+  &.-learnmore {
+    background-color: $transparent;
+    bottom: 44px;
+    color: $title-color;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  &.-btns {
+    background-color: $transparent;
+    height: 34px;
+    left: 0px;
+    position: absolute;
+    top: 34px;
+    width: 211px;
+  }
+
+  &.-googleplaybtn {
+    background-color: $transparent;
+    bottom: -22px;
+    height: 69px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 92px;
+    width: 137px;
+  }
+
+  &.-appleplaybtn {
+    background-color: $transparent;
+    bottom: -22px;
+    height: 69px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: -18px;
+    width: 137px;
+  }
+
+  &.-iphoneWrapper {
+    height: 100%;
+    left: 38.44%;
+    /* mix-blend-mode: normal; */
+    position: absolute;
+    top: -47px;
+  }
+
+  &.-iphoneClass {
+    // background-color: $transparent;
+    // height: 95.41%;
+    // left: 4.92%;
+    // position: absolute;
+    // top: 2.42%;
+    // width: 90.68%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Classes {
+    &.-init {
+      background-color: $white;
+      height: 704px;
+      left: 0px;
+      mix-blend-mode: normal;
+      overflow: hidden;
+      position: absolute;
+      top: 4341px;
+      width: 100%;
+    }
+
+    &.-wrapper {
+      background-color: $light-gray;
+      border-radius: 12px;
+      height: 624px;
+      left: calc(50% - 158px);
+      mix-blend-mode: normal;
+      position: absolute;
+      top: calc(50% - 312px);
+      width: 315px;
+    }
+
+    &.-content {
+      background-color: $transparent;
+      height: 559px;
+      left: calc(50% - 106px);
+      position: absolute;
+      top: calc(50% - 280px);
+      width: 211px;
+    }
+
+    &.-leftcontent {
+      background-color: $transparent;
+      height: 226px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 211px;
+    }
+
+    &.-titleContent {
+      background-color: $transparent;
+      height: 128px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 211px;
+    }
+
+    &.-title-heading-2 {
+      background-color: transparent;
+      bottom: 92px;
+      color: $title-color;
+      font-style: normal;
+      font-weight: 400;
+      height: auto;
+      left: 0px;
+      line-height: 36px;
+      mix-blend-mode: normal;
+      position: absolute;
+      text-align: left;
+      white-space: nowrap;
+      width: 211px;
+    }
+
+    &.-subtitle {
+      background-color: transparent;
+      color: $title-color;
+      font-style: normal;
+      font-weight: 400;
+      height: auto;
+      left: calc(50% - 106px);
+      line-height: 24px;
+      mix-blend-mode: normal;
+      position: absolute;
+      text-align: left;
+      top: calc(50% - 8px);
+      width: 211px;
+    }
+
+    &.-buttonwrapper {
+      background-color: transparent;
+      height: 68px;
+      left: 0px;
+      position: absolute;
+      top: 158px;
+      width: 211px;
+    }
+
+    &.-learnmore {
+      background-color: $transparent;
+    bottom: 44px;
+    color:$title-color;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    }
+
+    &.-btns{
+      background-color: $transparent;
+    height: 34px;
+    left: 0px;
+    position: absolute;
+    top: 34px;
+    width: 211px;
+    }
+
+    &.-iphoneWrapper{
+    background-color: $transparent;
+    height: 50.63%;
+    left: -34.34%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 38.37%;
+    width: 65.33%;
+    }
+
+    
+
+
+  }
+}
